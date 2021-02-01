@@ -7,7 +7,7 @@ RUN echo 'Starting Docker build'
 RUN echo 'Installing dependencies'
 RUN apt-get update
 RUN apt-get install -y sudo
-RUN apt-get install -y wget unzip
+RUN apt-get install -y wget unzip cmake
 RUN apt-get install -y gstreamer1.0-python3-plugin-loader \
 					   libgstreamer1.0-dev \
 					   libgstreamer-plugins-base1.0-dev
