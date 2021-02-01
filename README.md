@@ -1,2 +1,2 @@
 # reward-faces
-reward-faces attendance system.
+Face recognition system for Reward Access Control
